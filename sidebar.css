@@ -1,0 +1,35 @@
+.sidebar{
+    position: fixed;
+    top: 50px;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    width: 65px;
+    z-index: 200;
+    padding-top: 3px;
+}
+
+.home-div{
+    height: 75px;
+    margin-bottom: 2px;margin-top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    font-family: roboto, arial;
+}
+
+.home-div:hover{
+    background-color:lightgray;
+}
+
+.home-image{
+    width: 24px;
+}
+
+.home-writeup{
+    display: flex;
+  font-size: 8px;
+  margin-top: 5px;
+}
